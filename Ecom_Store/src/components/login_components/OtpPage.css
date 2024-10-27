@@ -1,0 +1,143 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .otp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .otp-form {
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .otp-form h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .otp-submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #6200ee;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  
+  .otp-submit-btn:hover {
+    background-color: #3700b3;
+  }
+  
+  /* Dropdown and phone input custom styles */
+  .react-tel-input .flag-dropdown {
+    background-color: #444; /* Darker dropdown */
+  }
+  
+  .react-tel-input .selected-flag {
+    background-color: #333; /* Darker background for flag */
+    border: none;
+  }
+  
+  .react-tel-input .country-list {
+    background-color: #333; /* Dark background for country dropdown */
+    color: #fff;
+  }
+  
+  .react-tel-input .country-list .country {
+    color: #fff; /* Ensure text is visible */
+  }
+  
+  .react-tel-input .country-list .country:hover {
+    background-color: #555; /* Hover effect */
+  }
+  
+  .otp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .otp-form {
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .otp-submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #6200ee;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .otp-submit-btn:hover {
+    background-color: #3700b3;
+  }
+  
+  /* OTP Modal Styles */
+  .otp-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .otp-modal-content {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .otp-input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .otp-input-box {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .otp-input-box:focus {
+    outline: none;
+    border-color: #6200ee;
+  }
+  
